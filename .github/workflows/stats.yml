@@ -1,0 +1,32 @@
+name: Stats #nombre de la accion
+
+on:  #cuando queremos que se lance la accion
+  push:   #que se ejecute cuando se lance una push
+    branches: [ main ] #en que rama ejecutar, se va a ejecutar en la rama main
+
+jobs: #los trabajos que se van a realizar o los pasos
+  build: #aca indicamos cual es todo el proceso de construccion
+    runs-on: ubuntu-latest #aca indicamos en que tipo de maquinas se va a ejecutar
+
+    permissions: #estamos dandole permisos en este caso de escritura
+      contents: write 
+
+    steps: #ahora se definen los pasos, en este caso solo un paso que va a ejecutar varias tareas
+      - name: checkou repo # dandode un nombre al uses
+        uses: actions/checkout@v4 #que vamos a usar o necesitar, traemos un action que ya esta creado 
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with: #podemos especificar la version de python que queremos usar
+          python-version: '3.13'
+
+      - name: Run script
+        run: python ./stats.py #especificamos que fichero queremos arrancar o inicar
+
+      - name: commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with: 
+          commit_message: Update stats #el mensaje que tendra el commit
+          commit_user_name: Yeremy [GitHub Actions] # un nombre de usuario
+          commit_user_email: jeremyalejandromontoyadiaz@gmail.com # un email
+          commit_author: YEREMY641 #autor del commit o el script
