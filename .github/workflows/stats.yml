@@ -1,8 +1,10 @@
 name: Stats #nombre de la accion
 
 on:  #cuando queremos que se lance la accion
-  push:   #que se ejecute cuando se lance una push
-    branches: [ main ] #en que rama ejecutar, se va a ejecutar en la rama main
+  schedule: #evento programado
+    - cron: '0 0 * * *' #tarea que indicamos cada cuanto se va a ejecutar
+  # push:   #que se ejecute cuando se lance una push
+    # branches: [ main ] #en que rama ejecutar, se va a ejecutar en la rama main
 
 jobs: #los trabajos que se van a realizar o los pasos
   build: #aca indicamos cual es todo el proceso de construccion
