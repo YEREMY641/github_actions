@@ -19,67 +19,67 @@
         },
         {
             "order": 3,
-            "name": "heads",
-            "count": 2,
-            "percentage": 5.71
-        },
-        {
-            "order": 4,
             "name": "origin",
             "count": 2,
             "percentage": 5.71
         },
         {
+            "order": 4,
+            "name": "heads",
+            "count": 2,
+            "percentage": 5.71
+        },
+        {
             "order": 5,
-            "name": "logs",
-            "count": 1,
-            "percentage": 2.86
-        },
-        {
-            "order": 6,
-            "name": "info",
-            "count": 1,
-            "percentage": 2.86
-        },
-        {
-            "order": 7,
-            "name": "1b",
-            "count": 1,
-            "percentage": 2.86
-        },
-        {
-            "order": 8,
-            "name": "49",
-            "count": 1,
-            "percentage": 2.86
-        },
-        {
-            "order": 9,
             "name": "d5",
             "count": 1,
             "percentage": 2.86
         },
         {
-            "order": 10,
+            "order": 6,
             "name": "eb",
             "count": 1,
             "percentage": 2.86
         },
         {
-            "order": 11,
+            "order": 7,
+            "name": "49",
+            "count": 1,
+            "percentage": 2.86
+        },
+        {
+            "order": 8,
             "name": "b0",
             "count": 1,
             "percentage": 2.86
         },
         {
-            "order": 12,
+            "order": 9,
+            "name": "3c",
+            "count": 1,
+            "percentage": 2.86
+        },
+        {
+            "order": 10,
+            "name": "9d",
+            "count": 1,
+            "percentage": 2.86
+        },
+        {
+            "order": 11,
             "name": "01",
             "count": 1,
             "percentage": 2.86
         },
         {
+            "order": 12,
+            "name": "logs",
+            "count": 1,
+            "percentage": 2.86
+        },
+        {
             "order": 13,
-            "name": "66",
+            "name": "info",
             "count": 1,
             "percentage": 2.86
         },
@@ -111,73 +111,73 @@
         },
         {
             "order": 4,
-            "name": "index",
-            "count": 1,
-            "languages": 1
-        },
-        {
-            "order": 5,
             "name": "fetch_head",
             "count": 1,
             "languages": 1
         },
         {
-            "order": 6,
-            "name": "shallow",
+            "order": 5,
+            "name": "index",
             "count": 1,
             "languages": 1
         },
         {
-            "order": 7,
+            "order": 6,
             "name": "description",
             "count": 1,
             "languages": 1
         },
         {
+            "order": 7,
+            "name": "shallow",
+            "count": 1,
+            "languages": 1
+        },
+        {
             "order": 8,
-            "name": "pre-merge-commit",
+            "name": "e408e2842ea68ba3f8b6cfe1529da6aa54ab56",
             "count": 1,
             "languages": 1
         },
         {
             "order": 9,
-            "name": "push-to-checkout",
+            "name": "2fcc84d66dd3ce54abd6e98aba9ddd41a1e8d4",
             "count": 1,
             "languages": 1
         },
         {
             "order": 10,
-            "name": "applypatch-msg",
+            "name": "c0a1676143113aee49363ee70a6bd423f485f7",
             "count": 1,
             "languages": 1
         },
         {
             "order": 11,
-            "name": "pre-push",
+            "name": "e11a577f7539c19af14af88c9e50d8ba6609c6",
             "count": 1,
             "languages": 1
         },
         {
             "order": 12,
-            "name": "pre-commit",
+            "name": "06e60eeedf12dba490fe4a268003547575d32c",
             "count": 1,
             "languages": 1
         },
         {
             "order": 13,
-            "name": "pre-applypatch",
+            "name": "15cc2875168ed9007763f8b0b3059f6a0f5c73",
             "count": 1,
             "languages": 1
         },
         {
             "order": 14,
-            "name": "pre-receive",
+            "name": "697b1768cac941a24c53a7f69f8637bea60970",
             "count": 1,
             "languages": 1
         },
         {
             "order": 15,
-            "name": "post-update",
+            "name": "pre-merge-commit",
             "count": 1,
             "languages": 1
         },
@@ -189,7 +189,7 @@
         },
         {
             "order": 17,
-            "name": "sendemail-validate",
+            "name": "pre-push",
             "count": 1,
             "languages": 1
         },
@@ -207,61 +207,61 @@
         },
         {
             "order": 20,
-            "name": "prepare-commit-msg",
+            "name": "applypatch-msg",
             "count": 1,
             "languages": 1
         },
         {
             "order": 21,
-            "name": "pre-rebase",
+            "name": "pre-receive",
             "count": 1,
             "languages": 1
         },
         {
             "order": 22,
-            "name": "exclude",
+            "name": "prepare-commit-msg",
             "count": 1,
             "languages": 1
         },
         {
             "order": 23,
-            "name": "d5a46bfbbb8b333564f4850fa9ae4a4c3de9fb",
+            "name": "pre-rebase",
             "count": 1,
             "languages": 1
         },
         {
             "order": 24,
-            "name": "c0a1676143113aee49363ee70a6bd423f485f7",
+            "name": "post-update",
             "count": 1,
             "languages": 1
         },
         {
             "order": 25,
-            "name": "e9c2204b04c9cf1f0062921ff7f378d6e83ee1",
+            "name": "pre-applypatch",
             "count": 1,
             "languages": 1
         },
         {
             "order": 26,
-            "name": "2fcc84d66dd3ce54abd6e98aba9ddd41a1e8d4",
+            "name": "push-to-checkout",
             "count": 1,
             "languages": 1
         },
         {
             "order": 27,
-            "name": "e11a577f7539c19af14af88c9e50d8ba6609c6",
+            "name": "pre-commit",
             "count": 1,
             "languages": 1
         },
         {
             "order": 28,
-            "name": "697b1768cac941a24c53a7f69f8637bea60970",
+            "name": "sendemail-validate",
             "count": 1,
             "languages": 1
         },
         {
             "order": 29,
-            "name": "50879a58835c08c4079bec848d6330ca0914a0",
+            "name": "exclude",
             "count": 1,
             "languages": 1
         },
